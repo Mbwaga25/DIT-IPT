@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color: rgb(81, 221, 142);
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+
+.toon{
+    text-decoration: none;
+    color: rgb(81, 221, 142);
+    }
+
+ul li a:hover{
+    color: white;
+}
+
+#sheet4{
+    color: white;
+}
+
+.part2 a{
+    color: white;
+}
+
+.part2 a:hover{
+    color: rgb(81, 221, 142);
+}
+
+.part3{
+    border: 1px solid white;
+    color: white;
+    width: 330px;
+    height: 180px;
+    font-size: smaller;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+
+footer{
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: small;
+}

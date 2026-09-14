@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link id="Styling" rel="stylesheet" href="Stylesheet 1.css" >
+   
+</head>
+<body>
+    <header>
+        <h1>Welcome to my Home page</h1>
+        <p>Use the menu to select different stylesheets</p>
+    </header>
+    <div class="part0"> 
+    <div class="part1">
+        <ul>
+        <li><a href="" class="toon" id="sheet1" onclick="changeCSS('Stylesheet 1.css');return false;">Stylesheet 1</a></li>
+        <li><a href="" class="toon" id="sheet2" onclick="changeCSS('Stylesheet 2.css');return false;">Stylesheet 2</a></li>
+        <li><a href="" class="toon" id="sheet3" onclick="changeCSS('Stylesheet 3.css');return false;">Stylesheet 3</a></li>
+        <li><a href="" class="toon" id="sheet4" onclick="changeCSS('Stylesheet 4.css');return false;">Stylesheet 4</a></li>
+        <li><a href="" class="toon" id="sheet5" onclick="changeCSS('Stylesheet 0.css');return false;">No Stylesheet</a></li>
+    </ul>
+    </div>
+    <div class="part2">
+    <h2>Same page different stylesheets</h2>
+    <p>This is the demonstration of how different stylesheets can change the layout of your HTML page. 
+        You can change the layout of this page by selecting different stylesheets in the menu, or by selecting 
+        one of the following links:
+        <a href="" onclick="changeCSS('Stylesheet 1.css');return false;">Stylesheet 1</a>,  
+        <a href="" onclick="changeCSS('Stylesheet 2.css');return false;">Stylesheet 2</a>, 
+        <a href="" onclick="changeCSS('Stylesheet 3.css');return false;">Stylesheet 3</a>, 
+        <a href="" onclick="changeCSS('Stylesheet 4.css');return false;">Stylesheet 4</a>.
+    </p>
+    <h3>No style</h3>
+    <p>
+        This page uses DIV elements to group different sections of the HTML page. Click here to see how 
+        the page looks like with no stylesheet: <a href="" onclick="changeCSS('Stylesheet 0.css');return false;">No stylesheet</a>
+    </p>
+    </div>
+
+
+    <div class="part3">
+        <h3>Side-bar</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, rem officia. Minus ad saepe 
+            hic nisi provident. Reiciendis excepturi vitae harum aut. Atque necessitatibus deleniti porro et, 
+            maxime dolores culpa.</p>
+    </div>
+    </div>
+    <br>
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo veritatis facilis eius? 
+            Facere excepturi eos cum recusandae quisquam aspernatur deserunt! Eaque quia accusamus voluptas
+             quaerat necessitatibus dignissimos repellat nam quod. Lorem ipsum dolor sit amet consectetur 
+             adipisicing elit. Quos adipisci recusandae voluptas, explicabo, quaerat quo modi perferendis 
+             ipsum odit iusto est fugit. Provident ab, qui rerum voluptate praesentium ad omnis.</p>
+    </footer>
+    <script>
+        function changeCSS(cssFile){
+            document.getElementById('Styling').href=cssFile;
+        }
+    </script>
+</body>
+</html>
