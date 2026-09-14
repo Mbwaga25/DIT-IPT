@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+        <script>
+        function changeContents() {
+            document.getElementById('P1').style.fontSize="40px"; 
+            document.getElementById('bg').style.backgroundColor="#ff7200";
+        }
+    </script> 
+</head>
+ <body id="bg">
+      <p id="P1">welcome to javascript codes</p>>
+      <button type="button"onclick="changeContents()">change</button>
+        
+
+    <h1>NEEMA?</h1>
+    <p>Javascript can change HTML attributes values.</p>
+    <button onclick="document.getElementById('myImage').src='My Photo.png'">FROM</button>
+    <img id="myImage" src="My Photo.png"style="width: 50px">
+    
+    <button onclick="document.getElementById('myImage').src='neymar.webp'">Change</button>
+
+    <head>
+
+    <style>
+    button{
+        width: 50px;
+        height: 30px; 
+        margin: 5px;
+    }
+
+    button:hover{
+        background-color: #ddd;
+    }
+
+    body{
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .container{
+        width: 50%;
+        justify-self: center;
+        padding: 20px;
+    }
+
+   
+
+
+    </style>
+    <br>
+</head>
+<body>
+    <input id="num1"><br>
+    <input id="num2"><br>
+
+    <button onclick="result.innerHTML=Number(num1.value)+Number(num2.value)">+</button>
+    <button onclick="result.innerHTML=Number(num1.value)-Number(num2.value)">-</button>
+    <button onclick="result.innerHTML=Number(num1.value)*Number(num2.value)">*</button>
+    <button onclick="result.innerHTML=Number(num1.value)/Number(num2.value)">/</button>
+
+    <h3>result</h3>
+    <div id="result"></div>
+
+
+
+
+
+</body>
+</html>
